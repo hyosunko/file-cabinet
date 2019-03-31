@@ -1,0 +1,8 @@
+<h1> All Docs </h1>
+
+<% @docs.each do |doc| %>
+<strong><%= link_to doc.title, doc_path(doc) %></strong>
+<p><%= truncate(doc.content, length: 50) %></p>
+<% end %>
+
+<%= link_to  "New", new_doc_path %>
