@@ -2,6 +2,7 @@
 
 <% @docs.each do |doc| %>
 <strong><%= link_to doc.title, doc_path(doc) %></strong>
+<p><%= time_ago_in_words(doc.created_at) %></p>
 <p><%= truncate(doc.content, length: 50) %></p>
 <% end %>
 
