@@ -2,7 +2,7 @@ class DocsController < ApplicationController
   before_action :find_doc, only: [:show, :update, :edit, :destroy]
 
   def index
-    @docs = Doc.where(user_id: current_user)
+    @docs = current_user.docs
   end
 
   def show
