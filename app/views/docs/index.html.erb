@@ -6,7 +6,7 @@
           <div class="doc">
             <p class="title"><%= doc.title %></p>
             <p class="date"><%= time_ago_in_words(doc.created_at) %></p>
-            <p class="content"><%= truncate(doc.content, length: 80) %></p>
+            <p class="content"><%= truncate(doc.content, length: 50) %></p>
           </div>
         <% end %>
       <% end %>
