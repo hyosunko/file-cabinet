@@ -1,24 +1,8 @@
-# README
+# File Cabinet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Document saving app by rails
 
-Things you may want to cover:
+## Live Demo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<a href="https://filecabinet-rails.herokuapp.com/">
+<img src="https://github.com/hyosunko/hyosunko.github.io/blob/master/img/file-cabinet.gif" width="400"></a>
